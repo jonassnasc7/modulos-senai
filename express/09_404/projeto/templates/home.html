@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    main{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #4682B4;
+        gap: 2rem;
+    }
+    body{
+        background-color: #4682B4;
+    }
+
+    h1, h3{
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    a{
+        color: black;
+    }
+</style>
+<body>
+    
+    <main>
+        <h1>Página home</h1>
+        <form action="/user/save" method="post">
+            <h3><a href="./cadastrarProdutos.html">Cadastrar produtos</a></h3>
+            <h3><a href="./visualizarProdutos.html">Visualizar produtos</a></h3>
+        </form>
+    </main>
+</body>
+</html>

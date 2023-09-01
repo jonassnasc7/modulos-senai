@@ -1,0 +1,23 @@
+body{
+    background-color: #483D8B;
+    /* padding: 3rem; */
+}
+
+h1, h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    color: #ADFF2F;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+li{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
